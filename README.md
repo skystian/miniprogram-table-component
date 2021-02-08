@@ -23,8 +23,9 @@
 一个简易的微信小程序 `table组件`诞生了。使用很简单，就是按照npm包和微信自定组件的用法使用。
 
 ### 1、安装和引入
-- 安装组件： 
+- 安装组件(小程序根目录下)： 
 ```
+npm init
 npm install --save miniprogram-table-component
 ```
 - 引入table自定义组件
@@ -34,7 +35,7 @@ npm install --save miniprogram-table-component
 ```json
 {
   "usingComponents": {
-    "table-view": "../../../miniprogram_npm/miniprogram-table-component"
+    "table-view": "./miniprogram_npm/miniprogram-table-component"
   }
 }
 ```
