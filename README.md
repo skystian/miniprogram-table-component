@@ -46,7 +46,7 @@ npm install --save miniprogram-table-component
 在wxml页面需要用到的地方使用，如下：
 
 ```html
-<table 
+<table-view 
     headers="{{tableHeader}}" 
     data="{{ row }}" 
     stripe="{{ stripe }}"
